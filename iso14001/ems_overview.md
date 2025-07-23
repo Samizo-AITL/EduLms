@@ -26,7 +26,7 @@ ISO14001は、ISO9001と同様に附属書SL構造（10章立て）に従って�
 ## 1.4 PDCAモデル（EMS版）
 
 ```mermaid
-flowchart LR
+flowchart TD
   P[Plan: 環境方針・リスク評価] --> D[Do: 運用と管理]
   D --> C[Check: モニタリングと監査]
   C --> A[Act: 是正処置と見直し]
