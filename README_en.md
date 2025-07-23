@@ -83,3 +83,25 @@ MIT License
 
 ---
 
+---
+
+## 💬 Feedback & Contributions Welcome
+
+EduLms is designed to support structured education, training, and quality management  
+through reusable materials, process templates, and FSM-based visualization.
+
+If you have:
+
+- Ideas for real-world training, audit, or calibration use
+- Suggestions for improving templates or FSM diagrams
+- Requests for deeper integration with other materials (e.g., Edusemi, EduMecha)
+- Questions about using GitHub Pages, Markdown, or version control for training
+
+…we would love to hear from you!
+
+👉 Please leave your comments in the following discussion thread:  
+[🗣️ Feedback Discussion for EduLms](https://github.com/Samizo-AITL/EduLms/discussions)
+
+Your insights will directly contribute to improving the educational ecosystem.
+
+---
