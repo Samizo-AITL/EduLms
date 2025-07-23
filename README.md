@@ -1,32 +1,35 @@
-# 🎓 EduLms - Integrated Educational LMS for ISO9001, ISO14001, and Quality Tools
+ 🎓 EduLms - Integrated Learning Management System for ISO9001, ISO14001, and Quality Tools
 
-**EduLms** は、教育訓練（LMS）を起点として、  
-**ISO 9001 / ISO 14001 / QCツール / 力量管理 / 文書様式テンプレート** までを  
-統合的に再構成した教育・品質・環境マネジメント教材です。
+**EduLms** は、構造化教育・品質管理・教材再利用・訓練記録を支援する  
+軽量かつ再利用可能な **学習管理モジュール（LMS: Learning Management System）** です。  
+ISO 9001・ISO 14001・QCツール・教育訓練・文書様式・Mermaid構造図を統合し、  
+プロセス視点での教育設計と構造可視化を可能にします。
 
-本リポジトリは、当初構想された「EduIms」構成を含み、  
-**教育再利用・プロセス可視化・トレーサビリティの確保** を主目的として、  
-Samizo-AITL構想の一部として設計されています。
+> 💡 **LMS（Learning Management System）とは？**  
+> LMSとは、単なる教育訓練の提供ではなく、教材の構成管理・訓練計画・力量記録・進捗評価を含む  
+> **「学習構造の設計と運用全体」を管理するシステム**のことです。EduLmsはこの思想をMarkdownとGitベースで実装します。
 
 ---
 
-**EduLms** is an integrated educational repository that unifies  
-**training and competence management (LMS), ISO 9001, ISO 14001, QC tools**,  
-and reusable templates for structured documentation and process control.
+**EduLms** is a lightweight and reusable **Learning Management System (LMS)**  
+designed to integrate structured training, quality/environmental management,  
+documentation, and educational reuse. It supports ISO 9001, ISO 14001, QC tools,  
+competence management, and process modeling via FSM/Mermaid.
 
-This repository consolidates the previously planned "EduIms" scope,  
-designed to support **educational reuse, quality systems visualization**,  
-and traceable documentation as part of the **Samizo-AITL architecture**.
+> 💡 **What is LMS (Learning Management System)?**  
+> An LMS refers not just to training delivery, but to the overall system of managing  
+> educational content, training plans, competence records, and progress.  
+> EduLms realizes this vision using Markdown and Git-based architecture.
 
 ---
 
 ## 📦 機能 / Key Features
 
-- ✅ ISO 9001:2015 / ISO 14001:2015 対応教材とテンプレート
-- ✅ 教育訓練・力量マトリクス・訓練記録・認識向上支援
-- ✅ QC7ツール（パレート、管理図、チェックシート）教材
-- ✅ MermaidによるFSM・PDCA・プロセス構造可視化
-- ✅ Markdown + Git による様式テンプレ・改訂履歴管理
+- ✅ ISO 9001:2015 / ISO 14001:2015 対応教材とプロセス文書
+- ✅ 教育訓練（7.2）・認識向上（7.3）・力量マトリクス管理
+- ✅ QC7ツールの演習教材（パレート図・管理図など）
+- ✅ FSM / Mermaid によるPDCA・監査・校正プロセスの可視化
+- ✅ Git + Markdown による様式テンプレート管理と改訂履歴追跡
 
 ---
 
