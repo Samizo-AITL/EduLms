@@ -1,35 +1,22 @@
-# 🎓 EduLms - Integrated Learning Management System for ISO9001, ISO14001, and Quality Tools
+# 🎓 EduLms - Integrated Learning Management System for Structured Education and Quality Practice
 
-**EduLms** は、構造化教育・品質管理・教材再利用・訓練記録を支援する  
-軽量かつ再利用可能な **学習管理モジュール（LMS: Learning Management System）** です。  
-ISO 9001・ISO 14001・QCツール・教育訓練・文書様式・Mermaid構造図を統合し、  
-プロセス視点での教育設計と構造可視化を可能にします。
+**EduLms** は、ISO 9001 / ISO 14001 / QCツール / 教育訓練 / FSM構造可視化を統合し、  
+**教育の再利用 × 記録テンプレート × 管理プロセス可視化**を支援する  
+軽量かつ構造的な **LMS（Learning Management System）教材リポジトリ**です。
 
 > 💡 **LMS（Learning Management System）とは？**  
-> LMSとは、単なる教育訓練の提供ではなく、教材の構成管理・訓練計画・力量記録・進捗評価を含む  
-> **「学習構造の設計と運用全体」を管理するシステム**のことです。EduLmsはこの思想をMarkdownとGitベースで実装します。
+> 単なる訓練ではなく、**教材の構成管理・訓練計画・力量記録・進捗評価を含む学習の設計と運用基盤**を意味します。  
+> EduLmsは、これをMarkdownとGitで構造化・可視化します。
 
 ---
 
-**EduLms** is a lightweight and reusable **Learning Management System (LMS)**  
-designed to integrate structured training, quality/environmental management,  
-documentation, and educational reuse. It supports ISO 9001, ISO 14001, QC tools,  
-competence management, and process modeling via FSM/Mermaid.
+## 📦 機能 / Features
 
-> 💡 **What is LMS (Learning Management System)?**  
-> An LMS refers not just to training delivery, but to the overall system of managing  
-> educational content, training plans, competence records, and progress.  
-> EduLms realizes this vision using Markdown and Git-based architecture.
-
----
-
-## 📦 機能 / Key Features
-
-- ✅ ISO 9001:2015 / ISO 14001:2015 対応教材とプロセス文書
-- ✅ 教育訓練（7.2）・認識向上（7.3）・力量マトリクス管理
-- ✅ QC7ツールの演習教材（パレート図・管理図など）
-- ✅ FSM / Mermaid によるPDCA・監査・校正プロセスの可視化
-- ✅ Git + Markdown による様式テンプレート管理と改訂履歴追跡
+- ✅ ISO 9001:2015 / ISO 14001:2015 の各章に対応した教材・テンプレート
+- ✅ 教育訓練（7.2）・認識向上（7.3）・力量トレーサビリティを支援
+- ✅ PDCAテンプレ、監査・是正・校正のFSM可視化
+- ✅ Edusemi / EduMecha / EduController と連携した再利用教材構造
+- ✅ Git + Mermaid + Markdown による構成管理と学習プロセス記録
 
 ---
 
@@ -37,33 +24,32 @@ competence management, and process modeling via FSM/Mermaid.
 
 ```plaintext
 EduLms/
-├── iso9001/              # 品質マネジメントシステム（QMS）
-├── iso14001/             # 環境マネジメントシステム（EMS）
-├── training/             # 教育訓練・力量管理・認識向上
-├── qc_tools/             # QC7ツール・統計手法
-├── templates/            # 文書テンプレート・記録様式
-├── mermaid_diagrams/     # FSM/PDCA等の構造図（Mermaid記述）
-└── ref_links/            # 他教材リポジトリとのリンク
+├── iso9001/              # 品質管理（PDCA、是正、校正など）
+├── iso14001/             # 環境管理（環境方針、リスク、法令対応）
+├── training/             # 教育訓練・力量・認識向上教材
+├── qc_tools/             # QC7ツール：パレート・管理図など
+├── templates/            # 様式テンプレート：PDCA・記録・文書管理
+├── mermaid_diagrams/     # FSM・PDCAなどのプロセス図
+└── ref_links/            # 他教材（Edusemi等）との接続記録　
 ```
 
 ---
 
 ## 🔗 関連プロジェクト / Related Projects
 
-| プロジェクト     | 内容                                 |
-|------------------|--------------------------------------|
-| [Edusemi](https://github.com/samizo-aitl/Edusemi)         | 半導体・材料工学教育教材（技術トレーニング対象） |
-| [EduController](https://github.com/samizo-aitl/EduController) | 制御理論・AI制御の学習教材                         |
-| [EduMecha](https://github.com/samizo-aitl/EduMecha)       | 実装設計・計測器・構造設計連携教材                 |
+| プロジェクト     | 内容                                               |
+|------------------|----------------------------------------------------|
+| [Edusemi](https://github.com/samizo-aitl/Edusemi)         | 半導体・材料工学教材（技術教育との接続）               |
+| [EduMecha](https://github.com/samizo-aitl/EduMecha)       | 測定器・構造設計教育教材（校正・図面連携）              |
+| [EduController](https://github.com/samizo-aitl/EduController) | FSM制御・AI訓練教材（訓練プロセスとリンク）             |
 
 ---
 
-## 🧭 活用例・展開
+## 🧠 教育と構造設計の接続
 
-- 組織内教育・力量管理におけるPDCA推進
-- 技術教材との接続（Edusemi連携）による再利用訓練教材化
-- 内部監査、校正、是正処置などのFSMベース教材構成
-- ISO文書・訓練記録・様式のMarkdown構成管理（Git履歴）
+- **FSM可視化**：訓練・監査・校正などの教育プロセスを状態遷移で記述
+- **教材リンク構造**：Edusemiや他教材との双方向リンクを `ref_links/` に記載
+- **PDCA管理**：是正処置・再訓練・文書改訂を記録テンプレで一貫管理
 
 ---
 
@@ -79,4 +65,3 @@ Shinichi Samizo / Samizo-AITL
 
 - GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 - Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
-
