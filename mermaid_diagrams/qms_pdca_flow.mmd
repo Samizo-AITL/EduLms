@@ -1,32 +1,21 @@
-flowchart TD
-    P[計画 Plan] --> D[実行 Do]
-    D --> C[確認 Check]
-    C --> A[改善 Act]
+flowchart TB
+    P[Plan<br>計画] -->|方針・目標| P1[品質方針・目標]
+    P -->|力量設定| P2[力量マトリクス]
+    P --> D[Do<br>実行]
+    
+    D -->|作業実施| D1[作業手順／測定器校正]
+    D -->|訓練| D2[訓練実施と記録]
+    D --> C[Check<br>確認]
+    
+    C -->|監査| C1[内部監査・教育評価]
+    C -->|測定分析| C2[測定／パフォーマンス分析]
+    C --> A[Act<br>改善]
+    
+    A -->|是正| A1[是正処置]
+    A -->|再訓練| A2[再教育・手順見直し]
     A --> P
 
-    subgraph 計画 Plan
-        P1[品質方針・目標]
-        P2[力量マトリクス]
-    end
-
-    subgraph 実行 Do
-        D1[作業手順／測定器校正]
-        D2[訓練実施と記録]
-    end
-
-    subgraph 確認 Check
-        C1[内部監査・教育評価]
-        C2[測定／パフォーマンス分析]
-    end
-
-    subgraph 改善 Act
-        A1[是正処置<br>再訓練]
-    end
-
-    P --> P1
-    P --> P2
-    D --> D1
-    D --> D2
-    C --> C1
-    C --> C2
-    A --> A1
+    style P fill:#e0e0ff
+    style D fill:#e0ffe0
+    style C fill:#fff0cc
+    style A fill:#ffe0e0
