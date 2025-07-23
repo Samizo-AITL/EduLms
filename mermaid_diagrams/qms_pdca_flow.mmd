@@ -1,23 +1,32 @@
 flowchart TD
-    A[計画 Plan] --> B[実行 Do]
-    B --> C[確認 Check]
-    C --> D[改善 Act]
-    D --> A
+    P[計画 Plan] --> D[実行 Do]
+    D --> C[確認 Check]
+    C --> A[改善 Act]
+    A --> P
 
-    subgraph QMS構成要素
-        A1[品質方針・目標]
-        A2[力量マトリクス]
-        B1[作業手順／測定器校正]
-        B2[訓練実施と記録]
-        C1[内部監査・教育評価]
-        C2[測定／パフォーマンス分析]
-        D1[是正処置／再訓練]
+    subgraph 計画 Plan
+        P1[品質方針・目標]
+        P2[力量マトリクス]
     end
 
-    A --> A1
-    A --> A2
-    B --> B1
-    B --> B2
+    subgraph 実行 Do
+        D1[作業手順／測定器校正]
+        D2[訓練実施と記録]
+    end
+
+    subgraph 確認 Check
+        C1[内部監査・教育評価]
+        C2[測定／パフォーマンス分析]
+    end
+
+    subgraph 改善 Act
+        A1[是正処置<br>再訓練]
+    end
+
+    P --> P1
+    P --> P2
+    D --> D1
+    D --> D2
     C --> C1
     C --> C2
-    D --> D1
+    A --> A1
