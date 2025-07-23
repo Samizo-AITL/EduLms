@@ -1,4 +1,4 @@
- 🎓 EduLms - Integrated Learning Management System for ISO9001, ISO14001, and Quality Tools
+# 🎓 EduLms - Integrated Learning Management System for ISO9001, ISO14001, and Quality Tools
 
 **EduLms** は、構造化教育・品質管理・教材再利用・訓練記録を支援する  
 軽量かつ再利用可能な **学習管理モジュール（LMS: Learning Management System）** です。  
