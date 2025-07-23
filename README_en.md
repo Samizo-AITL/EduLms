@@ -4,6 +4,7 @@
 that integrates ISO 9001 / ISO 14001, QC tools, training, and FSM-based process visualization.  
 It supports **educational reuse, documentation templates, and management process visualization**  
 through Markdown and Git-based architecture.
+> 🇺🇸 This page is in English ｜ 🇯🇵 [日本語版はこちら](./README.md)
 
 > 💡 **What is an LMS (Learning Management System)?**  
 > An LMS is not just about training delivery, but refers to a system that manages learning as a whole —  
