@@ -77,3 +77,23 @@ Shinichi Samizo / Samizo-AITL
 - 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
+
+---
+
+## 💬 フィードバック・ご意見募集
+
+本リポジトリ「EduLms」は、現場の教育訓練・品質管理・構造的な教材展開を支援する目的で設計されています。
+
+- 実際の訓練・監査・校正業務での活用アイデア
+- テンプレートやFSM図の改善点
+- 他教材（Edusemi, EduMecha など）との連携要望
+- GitHub PagesやMarkdownによる運用へのご質問
+
+など、どんな内容でも構いません。  
+以下の Discussion にてお気軽にコメントをお寄せください：
+
+👉 [Discussions フィードバックスレッド](https://github.com/Samizo-AITL/EduLms/discussions)
+
+皆さまからのご意見を教材改善に活かしてまいります。
+
+---
