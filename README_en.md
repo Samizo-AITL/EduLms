@@ -38,6 +38,18 @@ EduLms/
 
 ---
 
+## 📂 Directory Links
+
+| Folder | Description | Link |
+|--------|-------------|------|
+| `iso9001/` | Quality management (PDCA, corrective actions, calibration, audits) | [📁 iso9001](./iso9001/) |
+| `iso14001/` | Environmental management (policies, legal compliance, risk analysis) | [📁 iso14001](./iso14001/) |
+| `training/` | Education, awareness, competency tracking | [📁 training](./training/) |
+| `qc_tools/` | QC Seven Tools (Pareto chart, control chart, histogram, etc.) | [📁 qc_tools](./qc_tools/) |
+| `templates/` | Document templates (PDCA forms, records, document control) | [📁 templates](./templates/) |
+| `mermaid_diagrams/` | FSM and PDCA diagrams using Mermaid for process visualization | [📁 mermaid_diagrams](./mermaid_diagrams/) |
+| `ref_links/` | Cross-references to other educational projects (e.g., Edusemi) | [📁 ref_links](./ref_links/) |
+
 ---
 
 ## 🔗 Related Projects
