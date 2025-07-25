@@ -38,3 +38,5 @@ EduLms全体の「教育訓練・是正・校正・構造可視化」と連動�
 ## 📜 ライセンス
 
 MIT License © 2025 Shinichi Samizo / Samizo-AITL
+
+---
