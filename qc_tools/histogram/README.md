@@ -36,6 +36,11 @@ histogram/
 └── README.md                      # 本ファイル
 ```
 
+### 🔗 各ファイルへのリンク
+
+- 📊 サンプル教材: [`samples/histogram_sample.xlsx`](samples/histogram_sample.xlsx)  
+- 📝 テンプレート: [`templates/histogram_template.xlsx`](templates/histogram_template.xlsx)  
+
 ---
 
 ## 📊 ヒストグラム図イメージ（Excel出力例）
@@ -56,9 +61,9 @@ histogram/
 
 ## 🔗 関連教材リンク
 
-- [`qc_tools/control_chart/`](../control_chart/)：管理図による時系列ばらつき管理
-- [`qc_tools/pareto/`](../pareto/)：不良頻度のランク付けによる重点分析
-- [`training/`](../../training/)：統計教育・SPC教育の教材展開
+- [`../control_chart/`](../control_chart/)：管理図による時系列ばらつき管理  
+- [`../pareto/`](../pareto/)：不良頻度のランク付けによる重点分析  
+- [`../../training/`](../../training/)：統計教育・SPC教育の教材展開  
 
 ---
 
