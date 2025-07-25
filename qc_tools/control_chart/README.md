@@ -25,7 +25,7 @@
 
 ---
 
-## 📁 ファイル構成（予定）
+## 📁 ファイル構成
 
 ```plaintext
 control_chart/
@@ -36,6 +36,12 @@ control_chart/
 │   └── control_chart_template.xlsx
 └── README.md                      # このファイル
 ```
+
+### 🔗 各ファイルへのリンク
+
+- 📄 Mermaid記法例: [`samples/xbar_r_example.md`](samples/xbar_r_example.md)  
+- 📊 Excelによるサンプル管理図: [`samples/control_chart_sample.xlsx`](samples/control_chart_sample.xlsx)  
+- 📝 記入用テンプレート: [`templates/control_chart_template.xlsx`](templates/control_chart_template.xlsx)  
 
 ---
 
@@ -79,9 +85,9 @@ line
 
 ## 🔗 関連教材リンク
 
-- [`qc_tools/`](../)：QC七つ道具のトップフォルダ  
-- [`iso9001/`](../../iso9001/)：校正や是正後の効果監視に利用  
-- [`training/`](../../training/)：SPC訓練や品質教育の一部として展開  
+- [`../`](../)：QC七つ道具のトップフォルダ  
+- [`../../iso9001/`](../../iso9001/)：校正や是正後の効果監視に利用  
+- [`../../training/`](../../training/)：SPC訓練や品質教育の一部として展開  
 
 ---
 
