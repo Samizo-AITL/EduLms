@@ -25,7 +25,7 @@
 
 ---
 
-## 📁 ファイル構成（予定）
+## 📁 ファイル構成
 
 ```plaintext
 stratification/
@@ -35,6 +35,11 @@ stratification/
 │   └── stratification_template.xlsx
 └── README.md                        # このファイル
 ```
+
+### 🔗 各ファイルへのリンク
+
+- 📊 サンプルデータ: [`samples/stratification_sample.xlsx`](samples/stratification_sample.xlsx)  
+- 📝 空テンプレート: [`templates/stratification_template.xlsx`](templates/stratification_template.xlsx)
 
 ---
 
@@ -53,9 +58,9 @@ stratification/
 
 ## 🔗 関連教材リンク
 
-- [`qc_tools/check_sheet/`](../check_sheet/)：層別項目を記録に含めておくと分析がしやすくなる  
-- [`qc_tools/pareto/`](../pareto/)：層別ごとの頻度を比較して重点層を特定  
-- [`qc_tools/histogram/`](../histogram/)：層ごとのばらつき比較にも有効  
+- [`../check_sheet/`](../check_sheet/)：層別項目を記録に含めておくと分析がしやすくなる  
+- [`../pareto/`](../pareto/)：層別ごとの頻度を比較して重点層を特定  
+- [`../histogram/`](../histogram/)：層ごとのばらつき比較にも有効  
 
 ---
 
