@@ -114,3 +114,5 @@ Copyright (c) 2025
 [Discussions フィードバックスレッド](https://github.com/Samizo-AITL/EduLms/discussions)
 
 皆さまのご意見を、教材品質の向上に活かしてまいります。
+
+---
