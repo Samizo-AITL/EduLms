@@ -1,4 +1,4 @@
-# 🎓 EduLms - Integrated Learning Management System for Structured Education and Quality Practice
+# 🎓 EduLms - 統合型学習管理システム：体系的な教育と品質実践のために
 
 **EduLms** は、ISO 9001 / ISO 14001 / QCツール / 教育訓練 / FSM構造可視化を統合し、  
 **教育の再利用 × 記録テンプレート × 管理プロセス可視化**を支援する  
