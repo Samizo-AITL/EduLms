@@ -7,29 +7,29 @@ EduLms教材全体の中でPDCAとの接続位置を可視化するための要�
 
 ## 🌀 品質マネジメントの基本構造：PDCA
 
-| フェーズ | 対応項目           | 関連文書例                      |
-|----------|--------------------|---------------------------------|
-| P（計画） | 品質方針、目標設定、リスク機会 | `qms_overview.md`, `training_plan_template.md` |
-| D（実行） | 製品提供、教育訓練、測定機器 | `process_control.md`, `measurement_management.md` |
-| C（確認） | 監査、測定、力量評価          | `audit/`, `training_record_form.md` |
-| A（改善） | 是正・予防措置、レビュー       | `nonconformity.md`, `corrective_actions.md` |
+| フェーズ | 対応項目                     | 関連文書例                                                                 |
+|----------|------------------------------|----------------------------------------------------------------------------|
+| P（計画） | 品質方針、目標設定、リスク機会 | [`qms_overview.md`](./qms_overview.md), [`training/training_plan_template.md`](../training/training_plan_template.md), [`risk_assessment_form.md`](./risk_assessment_form.md) |
+| D（実行） | 製品提供、教育訓練、測定機器     | [`process_control.md`](./process_control.md), [`measurement_management.md`](./measurement_management.md), [`training/`](../training/) |
+| C（確認） | 監査、測定、力量評価            | [`audit_report_template.md`](./audit_report_template.md), [`training/training_record_form.md`](../training/training_record_form.md), [`competence_matrix.md`](../training/competence_matrix.md) |
+| A（改善） | 是正・予防措置、レビュー         | [`nonconformity.md`](./nonconformity.md), [`corrective_actions.md`](./corrective_actions.md) |
 
 ---
 
 ## 📐 ISO 9001:2015章別 × EduLms教材マッピング
 
-| Clause | 内容                     | 対応教材／ディレクトリ              |
-|--------|--------------------------|------------------------------------|
-| 4      | 組織の状況               | `context_analysis.md`, `stakeholder_map.md` |
-| 5      | リーダーシップ           | `quality_policy.md`, `top_commitment.md` |
-| 6      | 計画                     | `qms_overview.md`, `risk_assessment_form.md` |
-| 7.1    | 資源                     | `equipment_list.xlsx`, `facility_map.md` |
-| 7.2    | 力量                     | `training/`, `competence_matrix.md` |
-| 7.3    | 認識                     | `training/`, `awareness_checklist.md` |
-| 7.5    | 文書化した情報           | `document_control_template.md`     |
-| 8      | 運用                     | `process_control.md`, `qc_tools/` |
-| 9      | パフォーマンス評価       | `audit/`, `measurement_management.md` |
-| 10     | 改善                     | `corrective_actions.md`, `nonconformity.md` |
+| Clause | 内容               | 対応教材／ディレクトリ                                                  |
+|--------|--------------------|--------------------------------------------------------------------------|
+| 4      | 組織の状況         | [`context_analysis.md`](./context_analysis.md), [`stakeholder_map.md`](./stakeholder_map.md) |
+| 5      | リーダーシップ     | [`quality_policy.md`](./quality_policy.md), [`top_commitment.md`](./top_commitment.md) |
+| 6      | 計画               | [`qms_overview.md`](./qms_overview.md), [`risk_assessment_form.md`](./risk_assessment_form.md) |
+| 7.1    | 資源               | [`equipment_list.md`](./equipment_list.md), [`facility_map.md`](./facility_map.md) |
+| 7.2    | 力量               | [`training/`](../training/), [`competence_matrix.md`](../training/competence_matrix.md) |
+| 7.3    | 認識               | [`training/`](../training/), [`awareness_checklist.md`](./awareness_checklist.md) |
+| 7.5    | 文書化した情報     | [`document_control_template.md`](./document_control_template.md) |
+| 8      | 運用               | [`process_control.md`](./process_control.md), [`qc_tools/`](../qc_tools/) |
+| 9      | パフォーマンス評価 | [`audit_report_template.md`](./audit_report_template.md), [`measurement_management.md`](./measurement_management.md) |
+| 10     | 改善               | [`corrective_actions.md`](./corrective_actions.md), [`nonconformity.md`](./nonconformity.md) |
 
 ---
 
@@ -58,13 +58,13 @@ flowchart LR
 
 ## 🗂 成果物・記録様式一覧
 
-| ドキュメント名 | 用途 | 備考 |
-|----------------|------|------|
-| `quality_policy.md` | 品質方針 | Clause 5 |
-| `document_control_template.md` | 文書管理表 | Clause 7.5 |
-| `training_record_form.md` | 教育記録 | Clause 7.2 |
-| `audit_report_template.md` | 監査記録 | Clause 9.2 |
-| `corrective_actions.md` | 是正措置報告 | Clause 10.2 |
+| ドキュメント名                    | 用途           | 備考      |
+|----------------------------------|----------------|-----------|
+| `quality_policy.md`             | 品質方針       | Clause 5  |
+| `document_control_template.md`  | 文書管理表     | Clause 7.5 |
+| `training_record_form.md`       | 教育記録       | Clause 7.2 |
+| `audit_report_template.md`      | 監査記録       | Clause 9.2 |
+| `corrective_actions.md`         | 是正措置報告   | Clause 10.2 |
 
 ---
 
@@ -84,4 +84,5 @@ flowchart LR
 - GitHub ActionsやWebhookを通じて、修正履歴を教育訓練ログに反映可能（LMS連携構想）
 
 ---
+
 MIT License © 2025 Shinichi Samizo / Samizo-AITL
