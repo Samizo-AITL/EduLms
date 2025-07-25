@@ -56,7 +56,7 @@ EduLms/
 
 | Project       | Description                                                   |
 |---------------|---------------------------------------------------------------|
-| [Edusemi](https://github.com/samizo-aitl/Edusemi)         | Structured semiconductor & materials education resources |
+| [Edusemi-v4x](https://github.com/samizo-aitl/Edusemi-v4x)         | Structured semiconductor & materials education resources |
 | [EduMecha](https://github.com/samizo-aitl/EduMecha)       | Mechanical design and calibration-oriented modeling kits |
 | [EduController](https://github.com/samizo-aitl/EduController) | Control theory and AI-based FSM training platform         |
 
