@@ -9,7 +9,7 @@ EduLms 全体で活用される **教育計画・訓練記録・力量マトリ�
 
 | 対象者          | 主な目的                                                       |
 |------------------|----------------------------------------------------------------|
-| 新任技術者        | 技術訓練と力量確認（例：[Edusemi教材](https://github.com/samizo-aitl/Edusemi)の活用） |
+| 新任技術者        | 技術訓練と力量確認（例：[Edusemi教材](https://github.com/samizo-aitl/Edusemi-v4x)の活用） |
 | 品質保証担当      | 校正・トレーサビリティの教育と記録                                   |
 | 設計者・監査員     | QMS理解、内部監査手順、是正処置の構造理解                               |
 | 教育責任者        | 訓練計画・力量記録・PDCA履歴の整合管理                                 |
@@ -44,7 +44,7 @@ EduLms 全体で活用される **教育計画・訓練記録・力量マトリ�
 ## 🧠 教育視点での設計意図
 
 - 訓練を **「実施 → 記録 → 評価 → 改善」** の循環で設計（PDCAサイクル支援）
-- 教材リンク（[Edusemi](https://github.com/samizo-aitl/Edusemi)）を訓練記録と紐付け、**再利用性・継続学習性**を強化
+- 教材リンク（[Edusemi](https://github.com/samizo-aitl/Edusemi-v4x)）を訓練記録と紐付け、**再利用性・継続学習性**を強化
 - Gitベースで履歴管理された記録により、**力量トレーサビリティ**を確保（ISO審査対応）
 
 ---
@@ -52,4 +52,4 @@ EduLms 全体で活用される **教育計画・訓練記録・力量マトリ�
 ## 📎 参考リンク
 
 - 🔗 [ISO 9001:2015 – Clause 7.2, 7.3 (iso.org)](https://www.iso.org/standard/62085.html)
-- 📘 [Edusemi – 教材リポジトリ（GitHub）](https://github.com/samizo-aitl/Edusemi)
+- 📘 [Edusemi – 教材リポジトリ（GitHub）](https://github.com/samizo-aitl/Edusemi-v4x)
