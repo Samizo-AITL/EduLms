@@ -52,7 +52,7 @@ EduLms/
 
 | プロジェクト     | 内容                                               |
 |------------------|----------------------------------------------------|
-| [Edusemi](https://github.com/samizo-aitl/Edusemi)         | 半導体・材料工学教材（技術教育との接続）               |
+| [Edusemi-v4x](https://github.com/samizo-aitl/Edusemi-v4x)         | 半導体・材料工学教材（技術教育との接続）               |
 | [EduMecha](https://github.com/samizo-aitl/EduMecha)       | 測定器・構造設計教育教材（校正・図面連携）              |
 | [EduController](https://github.com/samizo-aitl/EduController) | FSM制御・AI訓練教材（訓練プロセスとリンク）             |
 
