@@ -43,3 +43,9 @@
 - [training/training_plan_template.md](../training/training_plan_template.md)
 - [ref_links/ref_EduMecha.md](../ref_links/ref_EduMecha.md)
 - [templates/document_control_template.md](../templates/document_control_template.md)
+
+---
+
+## 📜 ライセンス
+
+MIT License © 2025 Shinichi Samizo / Samizo-AITL
