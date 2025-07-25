@@ -24,7 +24,7 @@
 
 ---
 
-## 📁 ファイル構成（予定）
+## 📁 ファイル構成
 
 ```plaintext
 scatter_plot/
@@ -34,6 +34,11 @@ scatter_plot/
 │   └── scatter_plot_template.xlsx
 └── README.md                     # このファイル
 ```
+
+### 🔗 各ファイルへのリンク
+
+- 📊 サンプル（回帰付き）: [`samples/scatter_plot_sample.xlsx`](samples/scatter_plot_sample.xlsx)  
+- 📝 空テンプレート: [`templates/scatter_plot_template.xlsx`](templates/scatter_plot_template.xlsx)  
 
 ---
 
@@ -67,9 +72,9 @@ xychart
 
 ## 🔗 関連教材リンク
 
-- [`qc_tools/histogram/`](../histogram/)：分布と組み合わせて分析することが多い
-- [`training/`](../../training/)：統計・回帰分析の入門教材として活用
-- [`templates/`](../../templates/)：記録・報告フォーマットとの統合
+- [`../histogram/`](../histogram/)：分布と組み合わせて分析することが多い  
+- [`../../training/`](../../training/)：統計・回帰分析の入門教材として活用  
+- [`../../templates/`](../../templates/)：記録・報告フォーマットとの統合  
 
 ---
 
