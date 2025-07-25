@@ -6,53 +6,45 @@ EduLms全体の「教育訓練・是正・校正・構造可視化」と連動�
 
 ---
 
-## 📁 教材構成（対応条項とリンク）
+## 📁 ファイル一覧と概要
 
-| ISO条項 | 内容                     | 教材／リンク先 |
-|---------|--------------------------|----------------|
-| 4.1     | 組織の状況               | [`context_analysis.md`](./context_analysis.md) |
-| 4.2     | 利害関係者のニーズ       | [`stakeholder_map.md`](./stakeholder_map.md) |
-| 5.1/5.2 | リーダーシップ・方針     | [`top_commitment.md`](./top_commitment.md), [`quality_policy.md`](./quality_policy.md) |
-| 6.1     | リスク及び機会の取扱い   | [`risk_assessment_form.md`](./risk_assessment_form.md) |
-| 7.1.5   | 測定資源の管理           | [`measurement_management.md`](./measurement_management.md) |
-| 7.2     | 力量の管理               | [`training/`](../training/), [`competence_matrix.md`](./competence_matrix.md) |
-| 7.3     | 認識の確保               | [`awareness_checklist.md`](./awareness_checklist.md) |
-| 7.5     | 文書化した情報           | [`document_control_template.md`](./document_control_template.md) |
-| 8       | 製品・サービスの運用     | [`process_control.md`](./process_control.md), [`qc_tools/`](../qc_tools/) |
-| 9.1     | 監視・測定               | [`measurement_management.md`](./measurement_management.md) |
-| 9.2     | 内部監査                 | [`audit_report_template.md`](./audit_report_template.md) |
-| 9.3     | マネジメントレビュー     | [`qms_overview.md`](./qms_overview.md) |
-| 10.1-10.2 | 改善・是正             | [`nonconformity.md`](./nonconformity.md), [`corrective_actions.md`](./corrective_actions.md) |
+| ファイル名 | 内容概要 |
+|------------|----------|
+| [📄 qms_overview.md](./qms_overview.md) | ISO 9001の全体構造と用語定義、PDCAとプロセスアプローチの概観 |
+| [📄 nonconformity.md](./nonconformity.md) | 不適合管理・是正処置・再発防止策の流れと記録テンプレート例 |
+| [📄 corrective_actions.md](./corrective_actions.md) | 是正措置のプロセスと改善報告書との関係 |
+| [📄 measurement_management.md](./measurement_management.md) | 測定機器の校正・トレーサビリティ・妥当性確認などの管理事項 |
+| [📄 quality_policy.md](./quality_policy.md) | 品質方針とコミットメント、Clause 5.2 対応文書 |
+| [📄 top_commitment.md](./top_commitment.md) | 組織の方針・責任・経営層の役割に関するトップマネジメント声明文 |
+| [📄 document_control_template.md](./document_control_template.md) | 文書管理および記録保持に関する管理様式（Clause 7.5） |
+| [📄 risk_assessment_form.md](./risk_assessment_form.md) | Clause 6対応：リスクと機会の識別・対策表 |
+| [📄 awareness_checklist.md](./awareness_checklist.md) | Clause 7.3対応：品質認識チェックリスト（教育・導入時） |
+| [📄 context_analysis.md](./context_analysis.md) | Clause 4.1対応：組織の状況・外部／内部課題の整理用 |
+| [📄 stakeholder_map.md](./stakeholder_map.md) | Clause 4.2対応：利害関係者のニーズ・期待分析表 |
+| [📄 competence_matrix.md](../training/competence_matrix.md) | Clause 7.2対応：力量評価と教育訓練のトレーサビリティ対応表 |
+| [📄 equipment_list.md](./equipment_list.md) | Clause 7.1.5対応：測定機器の一覧・校正対象管理表 |
+| [📄 facility_map.md](./facility_map.md) | Clause 7.1.3対応：施設・設備の配置図や管理対象情報 |
+| [📄 audit_report_template.md](./audit_report_template.md) | Clause 9.2対応：内部監査報告テンプレート |
+
+> 📌 上記ファイルは Markdown 形式で視覚的に整理され、必要に応じて FSM やテンプレート、記録シートとの連携が可能です。
 
 ---
 
-## 🌀 PDCAとの関係性（概要）
+## 🔗 関連リンク
 
-| フェーズ | 内容 | 関連教材 |
-|----------|------|----------|
-| P（計画） | 品質方針、リスク管理、力量管理 | `quality_policy.md`, `risk_assessment_form.md`, `training_plan_template.md` |
-| D（実行） | 製造・測定器管理・訓練記録 | `process_control.md`, `measurement_management.md`, `training/` |
-| C（確認） | 内部監査、力量評価、測定記録 | `audit_report_template.md`, `training_record_form.md`, `competence_matrix.md` |
-| A（改善） | 是正・予防・レビュー | `nonconformity.md`, `corrective_actions.md`, `qms_overview.md` |
-
-> Mermaid構成図：[`mermaid_diagrams/qms_pdca_flow.mmd`](../mermaid_diagrams/qms_pdca_flow.mmd)
+- [`../training/`](../training/)：教育訓練・力量トレーサビリティ教材（7.2, 7.3）
+- [`../templates/`](../templates/)：PDCA記録様式や是正処置テンプレート
+- [`../mermaid_diagrams/`](../mermaid_diagrams/)：プロセス可視化（例：是正処置FSM、校正プロセス図）
+- [`../qc_tools/`](../qc_tools/)：不適合分析・再発防止に使えるQC七つ道具集
+- [`../ref_links/ref_Edusemi.md`](../ref_links/ref_Edusemi.md)：QMSとセミナー教材群との連携
 
 ---
 
 ## 🧠 教育活用のヒント
 
-- 条項単位で分割された教材により、**教育訓練・自己学習・記録設計が柔軟に対応可能**です。
-- `training/`以下と統合して運用することで、**力量・認識・トレーサビリティの一元管理**が実現できます。
-- Mermaid記法を用いたフロー図や状態遷移図により、**可視化による理解促進**が可能です。
-
----
-
-## 🔗 関連ディレクトリ
-
-- [`../training/`](../training/)：力量管理・教育計画・記録用教材
-- [`../qc_tools/`](../qc_tools/)：QC七つ道具による問題解決ツール群
-- [`../templates/`](../templates/)：各種様式テンプレート（Excel/Markdown）
-- [`../mermaid_diagrams/`](../mermaid_diagrams/)：QMS構造可視化図（Mermaid）
+- ISO 9001の各条項に対応した教材を小単位で構成しており、**現場実務・教育訓練どちらにも対応可能**です。
+- Mermaid図を活用した「是正処置の状態遷移」や「校正プロセスのFSM」は、**プロセス理解に効果的**です。
+- 他のEduLms教材と組み合わせることで、**体系的なQMS教育パッケージ**として展開できます。
 
 ---
 
