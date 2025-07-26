@@ -77,21 +77,21 @@ MIT License
 
 ---
 
-## 👤 **About the Author**
+## 👤 **Author Information**
 
 **Shinichi Samizo**  
-- M.S. in **Electrical & Electronic Engineering**, Shinshu University  
-- Former R&D engineer at **Seiko Epson Corporation** (1997–2024)
+- **M.S. in Electrical and Electronic Engineering, Shinshu University**  
+- Former **Seiko Epson** Corporation Engineer (since 1997)
 
-📌 **Areas of Expertise**  
-- **Semiconductor devices** (logic, memory, HV mixed processes)  
-- **Thin-film piezo actuator** engineering  
-- **PrecisionCore printhead** development, documentation, and educational systems
+📌 **Areas of Expertise**:  
+- **Semiconductor Devices (Logic, Memory, High-Voltage Integrated with Logic)**  
+- **Inkjet Thin-Film Piezoelectric Actuators**  
+- **PrecisionCore Printhead Development, BOM Management, ISO Education**
 
 📬 **Contact**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 GitHub Pages: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
