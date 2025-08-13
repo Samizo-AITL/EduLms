@@ -1,4 +1,4 @@
-# 📚 **EduLms – Integrated Learning Management System for Structured Education and Quality Practice**
+# 🎓 **EduLms – Integrated Learning Management System for Structured Education and Quality Practice**
 
 **EduLms** is a lightweight and structured **Learning Management System (LMS)** repository  
 that integrates **ISO 9001 / ISO 14001**, **QC tools**, **training modules**, and **FSM-based process visualization**.  
