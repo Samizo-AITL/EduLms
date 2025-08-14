@@ -1,5 +1,7 @@
 # 🎓 **EduLms – Integrated Learning Management System for Structured Education and Quality Practice**
 
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
+
 **EduLms** is a lightweight and structured **Learning Management System (LMS)** repository  
 that integrates **ISO 9001 / ISO 14001**, **QC tools**, **training modules**, and **FSM-based process visualization**.  
 It supports **educational reuse**, **documentation templates**, and **process visibility** through **Markdown + Git** architecture.
