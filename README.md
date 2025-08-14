@@ -5,7 +5,14 @@
 **EduLms** は、ISO 9001 / ISO 14001 に基づく品質・環境教育をはじめ、QCツール、教育訓練、FSMプロセス可視化を統合した  
 **教育の再利用 × 記録テンプレート × プロセス管理の見える化** を支援する、軽量かつ構造的な **LMS（Learning Management System）教材リポジトリ** です。
 
-> 🇯🇵 このページは日本語版です ｜ 🇺🇸 [English version available here](./README_en.md)
+---
+
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduLms/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduLms) |
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/EduLms/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/EduLms/tree/main/en) |
 
 ---
 
