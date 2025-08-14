@@ -1,5 +1,7 @@
 # 🎓 EduLms - 統合型学習管理システム：体系的な教育と品質実践のために
 
+[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **EduLms** は、ISO 9001 / ISO 14001 に基づく品質・環境教育をはじめ、QCツール、教育訓練、FSMプロセス可視化を統合した  
 **教育の再利用 × 記録テンプレート × プロセス管理の見える化** を支援する、軽量かつ構造的な **LMS（Learning Management System）教材リポジトリ** です。
 
