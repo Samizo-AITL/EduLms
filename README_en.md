@@ -6,7 +6,16 @@
 that integrates **ISO 9001 / ISO 14001**, **QC tools**, **training modules**, and **FSM-based process visualization**.  
 It supports **educational reuse**, **documentation templates**, and **process visibility** through **Markdown + Git** architecture.
 
-> 🇺🇸 This page is in English ｜ 🇯🇵 [日本語版はこちら](./README.md)
+---
+
+## 🔗 Official Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/EduLms/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/EduLms/tree/main/en) |
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduLms/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduLms) |
+
+---
 
 > 💡 **What is an LMS (Learning Management System)?**  
 > An LMS is not just about training delivery, but a system that manages learning holistically —  
