@@ -1,3 +1,13 @@
+---
+layout: default
+title: EduLms
+# 必要なページだけ
+# math: katex   # または mathjax
+# mermaid: true
+---
+
+---
+
 # 🎓 EduLms - 統合型学習管理システム：体系的な教育と品質実践のために
 
 [![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
