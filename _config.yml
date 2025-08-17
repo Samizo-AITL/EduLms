@@ -1,0 +1,10 @@
+title: EduLms
+description: Lightweight LMS module for structured education reuse
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+
+# 必要なときだけ、特有CSSを追加
+# extra_css:
+#   - /assets/css/edulms.css
