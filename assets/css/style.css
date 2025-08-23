@@ -1,22 +1,90 @@
-/* 余白最小＆テーマ要素の非表示（minima等でも効く） */
-html,body{margin:0;padding:0}
-.site-header,.site-footer,.page-header,.page-footer{display:none!important}
-.page-content{padding:0!important;margin:0!important}
+/* ================================
+   Samizo-AITL: Minimal → 統一セピア版
+   - 既存テーマ(minima等)の上から被せてOK
+   - 実用重視（読みやすい行間／罫線／余白）
+   ================================ */
 
-/* 本文 */
-main.page{
-  max-width:1200px;margin:0 auto;padding:12px 16px;line-height:1.7;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;
-  word-wrap:anywhere;
+/* 余白最小＆テーマ要素の非表示 */
+html, body { margin: 0; padding: 0; }
+.site-header, .site-footer, .page-header, .page-footer { display: none !important; }
+.page-content { padding: 0 !important; margin: 0 !important; }
+
+/* 本文（共通基準） */
+main.page {
+  max-width: 980px;         /* ポータル統一幅 */
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  line-height: 1.9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Hiragino Sans",
+               "Yu Gothic UI", "YuGothic", Meiryo, sans-serif;
+  word-wrap: anywhere;
+  color: #2e2a24;
 }
-h1,h2,h3{margin:0.8em 0 0.4em}
 
-/* 表：罫線必ず表示 */
-table{border-collapse:collapse;width:100%}
-th,td{border:1px solid #999;padding:6px 8px;vertical-align:top}
-th{background:#f5f5f5;font-weight:600}
+/* ===== セピア統一トーン ===== */
+body.theme-sepia { background: #fdf6e3; color: #3b2f2f; }
+body.theme-sepia a { color: #0066cc; font-weight: 600; text-decoration: underline; }
+body.theme-sepia a:hover { color: #004c99; }
+
+/* 見出し（青字・下線なし・左寄せ） */
+h1, h2, h3 {
+  margin: 0.9em 0 0.5em;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #003366;            /* 濃い青 */
+  border: none;
+}
+h1 { font-size: 2.0rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+/* 段落・リスト */
+p { margin: 0.6em 0; }
+ul, ol { margin: 0.6em 0 0.6em 1.2em; padding-left: 1.2em; }
+li + li { margin-top: 0.2em; }
+
+/* 区切り線（実線） */
+hr { border: 0; border-top: 2px solid #000; margin: 1.2em 0; }
+
+/* ===== 表：実用重視（ヘッダー2px＋ストライプ） ===== */
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; table-layout: auto; }
+th, td { padding: 0.6em 0.8em; vertical-align: top; color: #2b2b2b; }
+thead th { background: #e9ddc9; border: 2px solid #999; font-weight: 700; text-align: left; }
+tbody td { border: 1.5px solid #bbb; }
+tbody tr:nth-child(odd)  td { background: #ffffff; }
+tbody tr:nth-child(even) td { background: #f3efe6; }
 
 /* 画像・コード */
-img{max-width:100%;height:auto}
-pre{overflow:auto;padding:10px;background:#fafafa;border:1px solid #eee}
-code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+img { max-width: 100%; height: auto; display: block; }
+pre {
+  overflow: auto;
+  padding: 10px;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  margin: 0.7em 0;
+}
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+
+/* 引用（落ち着いたアクセント） */
+blockquote {
+  margin: 0.8em 0;
+  padding: 0.6em 0.9em;
+  border-left: 4px solid #007acc;
+  background: #fbf6eb;
+  color: #3a3028;
+}
+
+/* Mermaid 図（中央寄せ） */
+.mermaid { display: block; margin: 1.2em auto; max-width: 100%; text-align: center; }
+.mermaid svg { height: auto; }
+
+/* モバイル微調整 */
+@media (max-width: 640px) {
+  main.page { padding: 1rem; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+  th, td { padding: 0.5em 0.7em; }
+}
