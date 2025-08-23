@@ -1,29 +1,60 @@
-<!DOCTYPE html><html lang="ja"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{ page.title | default: site.title }}</title>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="color-scheme" content="light" />
 
-<!-- ベースCSS -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- ベースCSS（常に最新を読む） -->
+  <link rel="stylesheet"
+        href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
 
-<!-- リポジトリ特有CSS（_config.yml の extra_css に列挙） -->
-{% if site.extra_css %}{% for css in site.extra_css %}
-<link rel="stylesheet" href="{{ css | relative_url }}">
-{% endfor %}{% endif %}
+  <!-- リポジトリ特有CSS（あれば上書きできるよう base の後に） -->
+  {% if site.extra_css %}
+    {% for css in site.extra_css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% endfor %}
+  {% endif %}
 
-<!-- 数式（必要ページのみ） -->
-{%- if page.math == 'katex' -%}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
- onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
-{%- elsif page.math == 'mathjax' -%}
-<script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]}};</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{%- endif -%}
+  <!-- 数式（必要ページのみ） -->
+  {%- if page.math == 'katex' -%}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+  {%- elsif page.math == 'mathjax' -%}
+    <script>window.MathJax={tex:{inlineMath:[['$','$'],['\$begin:math:text$','\\$end:math:text$']],displayMath:[['$$','$$'],['\$begin:math:display$','\\$end:math:display$']]},
+                     options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  {%- endif -%}
 
-<!-- Mermaid（必要ページのみ） -->
-{%- if page.mermaid == true -%}
-<script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
-        onload="mermaid.initialize({startOnLoad:true});"></script>
-{%- endif -%}
-</head><body><main class="page">{{ content }}</main></body></html>
+  <!-- Mermaid（必要ページのみ） -->
+  {%- if page.mermaid == true -%}
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // ```mermaid → <div class="mermaid">
+        document.querySelectorAll('pre > code.language-mermaid, code.language-mermaid').forEach(function (code) {
+          const pre = code.closest('pre');
+          const div = document.createElement('div');
+          div.className = 'mermaid';
+          div.textContent = code.textContent;
+          (pre || code).replaceWith(div);
+        });
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
+        }
+      });
+    </script>
+  {%- endif -%}
+</head>
+
+<body class="theme-sepia">
+  <main class="page">
+    <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
+      {{ content }}
+    </div>
+  </main>
+</body>
+</html>
