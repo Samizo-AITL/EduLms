@@ -96,7 +96,7 @@ EduLms/
 | 📌 項目 / Item | 内容 / Details |
 |------|------|
 | **氏名 / Name** | 三溝 真一（Shinichi Samizo） |
-| **経験領域 / Expertise** | 半導体デバイス（ロジック・メモリ・高耐圧混載）<br>インクジェット薄膜ピエゾアクチュエータ<br>PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育 |
+| **経験領域 / Expertise** | 半導体デバイス（ロジック・メモリ・高耐圧混載）<br>インクジェット薄膜ピエゾアクチュエータ<br>プリントヘッド製品化・BOM管理・ISO教育 |
 | **連絡先 / Contact** |　💻 [GitHub](https://samizo-aitl.github.io/)　|
 
 ---
